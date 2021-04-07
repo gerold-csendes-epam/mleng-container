@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# repo specific libs
+# ignore files in folder
+data/*
+reports/*
+models/*
+
+# but keep the filder
+!data/.keep
+!reports/.keep
+!models/.keep
+
+## ide specific
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+
+## R specific
+# R Environment Variables
+.Renviron
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+*.jupyterlab-workspace
