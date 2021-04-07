@@ -9,4 +9,11 @@ Run the following command to get docker up and running:
 ```bash
 docker container run -p 8888:8888 mleng-container
 ```
+
+Or run this comment to mount data
+
+```bash
+docker container run -p 8888:8888 --mount source=mleng-data,destination=/home/jovyan/data/ mleng-container
+```
+
 Now enter **localhost:8888** in your browser of choice.
