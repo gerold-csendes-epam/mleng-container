@@ -5,9 +5,9 @@ LABEL description="MLeng assignment to create dev env for an ML project"
 
 COPY /notebooks notebooks/
 COPY requirements.txt .
-COPY /models models/
+# COPY /models models/
 
-VOLUME /data
+# VOLUME /data
 
 RUN pip install -r requirements.txt
 
